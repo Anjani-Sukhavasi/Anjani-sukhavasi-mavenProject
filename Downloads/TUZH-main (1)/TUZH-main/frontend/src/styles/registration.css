@@ -1,0 +1,64 @@
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Optional: Adjust the label width for better alignment */
+label {
+  width: 100px;
+  display: inline-block;
+}
